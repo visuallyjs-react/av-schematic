@@ -1,0 +1,25 @@
+{
+  "name": "visuallyjs-react-av-schematic",
+  "private": true,
+  "version": "1.2.15",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@visuallyjs/browser-ui": "1.2.15",
+    "@visuallyjs/browser-ui-export": "1.2.15",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.2",
+    "vite": "^7.1.7",
+    "@vitejs/plugin-react": "^5.0.4",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9"
+  }
+}
